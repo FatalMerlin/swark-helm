@@ -1,0 +1,16 @@
+ingress:
+  enabled: true
+  className: "traefik"
+  annotations:
+    cert-manager.io/cluster-issuer: ca-issuer-kundm
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.tls: "true"
+  hosts:
+    - host: swark.test.k8s.kundm.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls:
+    - secretName: swark-tls-secret
+      hosts:
+        - swark.test.k8s.kundm.local
