@@ -1,6 +1,6 @@
 # Swark Helm
 
-Helm Chart repository for Swark, the Swiss Architecture Knife.
+Helm Chart repository for Swark, the [Swiss Architecture Knife](https://github.com/swiss-architecture-knife).
 
 ## Testing
 
