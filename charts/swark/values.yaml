@@ -126,6 +126,11 @@ tolerations: []
 
 affinity: {}
 
+persistence:
+  enabled: true
+  size: "1Gi"
+  storageClassName: ""
+
 mariadb:
   enabled: true
   image:
