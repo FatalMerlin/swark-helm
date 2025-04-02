@@ -1,3 +1,6 @@
+[![Static Badge](https://img.shields.io/badge/K%26M_Educational_Week-2025_March-blue)](https://k-m.info)
+[![Static Badge](https://img.shields.io/badge/K%26M_Weiterbildungswoche-2025_M%C3%A4rz-blue)](https://k-m.info)
+
 # Swark Helm
 
 Helm Chart repository for Swark, the [Swiss Architecture Knife](https://github.com/swiss-architecture-knife).
